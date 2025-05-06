@@ -1,2 +1,2 @@
 # FreeCodeAcad-Code
-Code I've written in the FreeCodeAcademy Curriculum
+Code I've written independently in the FreeCodeAcademy Curriculum.
