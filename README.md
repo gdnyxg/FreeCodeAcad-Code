@@ -7,4 +7,8 @@ Code I've written independently for the certification projects in the FreeCodeAc
 
 . timeCalculator.py
  - Function which calculates a time shift from an input start time, shift and (optional) weekday.
- - Returns a string stating shifted time, number of days change and (optional) weekday 
+ - Returns a string stating shifted time, number of days change and (optional) weekday
+
+. budget_class.py
+- Category class which instantiates objects based on different budget categories, includes deposit, withdrawl and transfer methods.
+- create_spent_chat function which takes a list of category objects as arguement and plots a bar chart of percentage spent
