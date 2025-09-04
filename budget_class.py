@@ -65,13 +65,13 @@ class Category:
 
 def create_spend_chart(categories):
     # Get total withdrawls for each category
-    withdrawls = []
+    withdrawals = []
     for category in categories:
         total = 0
         for item in category.ledger:
             if item["amount"] < 0:
                 total += -item["amount"]
-        withdrawls.append(total)
+        withdrawals.append(total)
 
     # Calculate spending percentages
     total_spent = sum(withdrawals)
